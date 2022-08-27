@@ -1,0 +1,279 @@
+*{
+    margin: auto;
+    
+}
+#marginleft{
+    margin-left: 0%;
+}
+
+
+
+.cta {
+    border: none;
+    background: none;
+}
+
+.cta span {
+    padding-bottom: 4px;
+    letter-spacing: 2px;
+    font-size: 18px;
+    padding-right: 2px;
+    text-transform: uppercase;
+
+}
+
+.hover-underline-animation {
+    position: relative;
+    color: black;
+    padding-bottom: 20px;
+}
+
+.hover-underline-animation:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 1.5px;
+    bottom: 0;
+    left: 0;
+    background-color: #000000;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.cta:hover .hover-underline-animation:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.centerheading {
+    text-align: center;
+
+}
+
+.radius {
+    border-radius: 100%;
+}
+
+#topcut {
+    border: none;
+    border-top: 2px solid black;
+
+}
+
+.change {
+
+    display: none;
+
+}
+
+#centeraligen {
+    text-align: center;
+}
+
+.change1 {
+    display: inline-block;
+    border: 1px solid black;
+    padding: 20% 50%;
+}
+
+@media (min-width:0px) and (max-width:600px) {
+    #change1 {
+        display: none;
+
+    }
+}
+
+@media (min-width:0px) and (max-width:600px) {
+    #change2 {
+        display: none;
+
+    }
+}
+
+@media (min-width:0px) and (max-width:600px) {
+    #qwe {
+        display: inline-block;
+        border: 1px solid black;
+        padding: 10% 50%;
+
+    }
+}
+
+@media (min-width:0px) and (max-width:600px) {
+    #asd {
+        display: inline-block;
+        border: 1px solid black;
+        padding: 10% 50%;
+
+    }
+}
+
+@media (min-width:0px) and (max-width:600px) {
+    #zxc {
+        display: inline-block;
+        border: 1px solid black;
+        padding: 10% 50%;
+
+    }
+}
+
+#centerqwe {
+    margin-left: 20%;
+}
+
+#topcut1 {
+    border: none;
+
+}
+
+.bordercut {
+    border: 1px solid black;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    height: 50px;
+    margin: 0%;
+}
+
+@media (min-width:0px) and (max-width:600px) {
+    #change3 {
+        display: none;
+
+    }
+}
+
+@media (min-width:0px) and (max-width:600px) {
+    #change4 {
+        display: none;
+
+    }
+}
+
+@media (min-width:0px) and (max-width:600px) {
+    #change7 {
+        display: inline-block;
+        border: 1px solid black;
+        padding: 10% 50%;
+
+    }
+}
+
+@media (min-width:0px) and (max-width:600px) {
+    #change8 {
+        display: inline-block;
+        border: 1px solid black;
+        padding: 10% 50%;
+
+    }
+}
+
+@media (min-width:0px) and (max-width:600px) {
+    #change9 {
+        display: inline-block;
+        border: 1px solid black;
+        padding: 10% 50%;
+
+
+    }
+}
+#radius1{
+    border-radius: 100%;
+}
+
+.fieldset {
+    border: none;
+    border-top: 2px solid black;
+    position: relative;
+}
+
+.label {
+    position: absolute;
+    left: 1%;
+    top: -30px;
+    right: 10%;
+}
+
+#lkj {
+    text-align: center;
+}
+
+.card {
+    border: none;
+    margin: auto;
+}
+
+@media (min-width:0px) and (max-width:600px) {
+    #none {
+        display: none;
+
+    }
+}
+
+@media (min-width:0px) and (max-width:600px) {
+    #none1 {
+        display: none;
+
+    }
+}
+
+@media (min-width:0px) and (max-width:600px) {
+    #none2 {
+        display: none;
+
+    }
+}
+#thick{
+    border:1px solid black ;
+    border-top: 5px solid black;
+}
+#extra{
+    margin: auto;
+}
+#margin{
+    margin:auto ;
+    width:70% ;
+}
+#button{
+    background-color: black;
+    color: aliceblue;
+    border: none;
+    font-size:x-large;
+}
+#borderpi{
+    border:2px solid black ;
+}
+#black{
+    background-color: black;
+    color: aliceblue;
+}
+#fontsize{
+    font-size: xx-large;
+}
+#fontsize2{
+    font-size: x-large;
+}
+@media (min-width:600px)  {
+    .white2{
+   display: none;
+   
+}}
+@media (min-width:0px) and (max-width:600px) {
+    .white {
+        display: none;
+
+    }
+}
+@media (min-width:0px) and (max-width:600px) {
+    .fontsize2 {
+        display: inline;
+        font-size: x-large;
+    }
+}
+#brown{
+    margin:auto;
+}
+#red{
+    margin: auto;
+    
+}
